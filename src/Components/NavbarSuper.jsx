@@ -68,7 +68,7 @@ export default function NavbarSuper() {
                           onClick={handleClickLogout}
                           className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                         >
-                          LogOut
+                          Salir
                         </button>
                       </>
                     ) : (
@@ -92,7 +92,7 @@ export default function NavbarSuper() {
                               : "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                           }
                         >
-                          Register
+                          Registrate
                         </NavLink>
                       </>
                     )}
@@ -152,7 +152,7 @@ export default function NavbarSuper() {
                               "block px-4 py-2 text-sm text-gray-700"
                             )}
                           >
-                            Settings
+                            Ajustes
                           </a>
                         )}
                       </Menu.Item>
@@ -194,7 +194,7 @@ export default function NavbarSuper() {
                     onClick={handleClickLogout}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    LogOut
+                    Salir
                   </button>
                 </>
               ) : (
@@ -218,7 +218,7 @@ export default function NavbarSuper() {
                         : "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     }
                   >
-                    Register
+                    Registrate
                   </NavLink>
                 </>
               )}

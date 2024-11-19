@@ -68,7 +68,7 @@ const Home = () => {
 
   return (
     <>
-      <Title text="Home Administrator URLs1" />
+      <Title text="Hola-Ejercicio" />
 
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormInput

@@ -41,7 +41,7 @@ const Login = () => {
       <Title text="Login" />
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormInput
-          label="Ingresa tu correo"
+          label="Ingresa tu email"
           type="email"
           placeholder="Ingrese email"
           {...register("email", {
@@ -56,7 +56,7 @@ const Login = () => {
         <FormInput
           label="Ingresa contraseña"
           type="password"
-          placeholder="Ingrese Password"
+          placeholder="Ingrese contraseña"
           {...register("password", {
             minLength,
             validate: validateTrim,
@@ -65,7 +65,7 @@ const Login = () => {
         >
           <FormError error={errors.password} />
         </FormInput>
-        <Button text="Login" type="submit" loading={loading} color="blue" />
+        <Button text="Acceder" type="submit" loading={loading} color="blue" />
       </form>
     </>
   );

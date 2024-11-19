@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link to="/" className="flex items-center">
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              URLShort APP
+              Prueba
             </span>
           </Link>
           <div className="flex md:order-2">
@@ -34,7 +34,7 @@ const Navbar = () => {
                   Inicio
                 </NavLink>
                 <button onClick={handleClicklogOut} className={classButtonRed}>
-                  Logout
+                  Salir
                 </button>
               </>
             ) : (
@@ -43,7 +43,7 @@ const Navbar = () => {
                   Login
                 </NavLink>
                 <NavLink to="/register" className={classButtonBlue}>
-                  Register
+                  Registrate
                 </NavLink>
               </>
             )}

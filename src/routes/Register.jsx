@@ -82,7 +82,7 @@ const Register = () => {
 
   return (
     <>
-      <Title text="Register" />
+      <Title text="Registrate" />
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormInput
           type="email"
@@ -99,12 +99,12 @@ const Register = () => {
 
         <FormInput
           type="password"
-          placeholder="Ingrese Password"
+          placeholder="Ingrese contraseña"
           {...register("password", {
             minLength,
             validate: validateTrim,
           })}
-          label="Ingresa tu password"
+          label="Ingresa tu contraseña"
           error={errors.password}
         >
           <FormError error={errors.password} />
@@ -112,7 +112,7 @@ const Register = () => {
 
         <FormInput
           type="password"
-          placeholder="Ingrese Password"
+          placeholder="Ingrese contraseña"
           {...register("repassword", {
             validate: validateEquals(getValues("password")),
           })}
@@ -121,7 +121,7 @@ const Register = () => {
         >
           <FormError error={errors.repassword} />
         </FormInput>
-        <Button text="Register" type="submit" loading={loading} color="blue" />
+        <Button text="Registrar" type="submit" loading={loading} color="blue" />
       </form>
     </>
   );
